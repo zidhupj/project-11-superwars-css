@@ -1,6 +1,6 @@
 ![Image description](https://i1.faceprep.in/ProGrad/face-logo-resized.png)
 
-# ProGrad Labs | Superwars CSS
+# ProGrad Lab | Superwars Stage 1
 
 ## Introduction
 
@@ -30,7 +30,7 @@ git push origin master
 And finally, create a pull request so your ProGrad Mentor (PM) can review your work.
 ```
 
-### Stage 1: Build the arena & Have the players ready
+### Progression : Build the arena & Have the players ready
 
 1. Create a html document `index.html`.
 2. Using `CSS Grid`, create 3 columns one each for Heroes, score and Villains in same order. Try to make it responsive and find the right size for each grid.
@@ -38,10 +38,11 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 4. Style the elements in `style.css`.
 
 ### Conditions
+
 Your output should adhere to the following conditions.
 * Heroes should be on your left grid and Villains on the right grid.
 * Heroes should be justified to the right and Villains to the left.
-* Each player should have an image, name and strength (Number).
+* Each player should have an image, name and strength (Number). The images of the super heroes are provided in the "images" folder.
 * Name and strength should be center aligned.
 * Make the players equally spaced apart.
 
