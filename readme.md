@@ -1,47 +1,54 @@
-# ProGrad
+![Image description](https://i1.faceprep.in/ProGrad/face-logo-resized.png)
 
-## Superwars
+# ProGrad Labs | Superwars CSS
 
-Dustin and Lucus are best friends, they spend their weekends watching superhero series and playing superhero games. One Friday in school Mr.Hooper who is their computer science faculty member taught them HTML, CSS, and JavaScript. So what's next? It's Weekend! Lucus and Dustin will be on their laptops. Are they watching series or playing games? Lucus says, No we are building a new game.
+## Introduction
 
-Lucus always loves protagonists like most of us. But Dustin is quite crazy he likes antagonists. So now they are collecting a bunch of their favorite Super Heroes and Super-Villains names along with images. Did they tell you about the game that they are building? Uh no. Okay, lemme explain. They are going to facilitate the ultimate war between Super Heroes and Super-Villains. As they are new to these technologies, they need **YOU** to help them build this game.
+Dustin and Lucus are best friends. They spend their weekends watching superhero series and playing superhero games. One Friday at school Mr.Hooper, their computer science faculty taught them HTML, CSS, and JavaScript. Dustin & Lucus realised they could build super cool super hero stuff using their knowledge. 
 
-## What should you do?
+The subsequent weekend, they decided to do it. Lucus and Dustin are now all set to build something super cool.
 
-- Fork this repo
-- Clone this repo
-- Practice CSS - _Flexbox, Grid_
+Lucus always loves protagonists like most of us. But Dustin is quite crazy, he likes antagonists. So they decided to collect a bunch of their favorite Super Heroes and Super Villains names along with their pictures. Did they tell you about the game that they are gonna build? 
 
-## How do you submit?
+Okay, let us explain. They are going to facilitate the ultimate war between Super Heroes and Super Villains. As they are new to these technologies, they need a **ProGrad** to help them build this game.
 
-- Upon completion, run the following commands:
+## What should you do
+```
+Fork this repo
+Clone this repo
+Practice CSS - Flexbox, Grids
+```
 
-  ```
-  git add .
-  git commit -m "prograd ID"
-  git push origin master
-  ```
+## How To Submit
+```
+Upon completion, run the following commands:
 
-- Create a pull request so your teaching mentors can check your work.
+git add .
+git commit -m "ProGrad ID"
+git push origin master
 
-## Learn CSS Flexbox and Grids
+And finally, create a pull request so your ProGrad Mentor (PM) can review your work.
+```
 
-Milestone #1: As a first step we will build an arena and align the players against each other.
+### Stage 1: Build the arena & Have the players ready
 
 1. Create a html document `index.html`.
-2. Using `CSS Grid`, create 3 columns one each for Heroes ,score and Villains in same order.
-Note: Try to make it responsive and find the right size for each grid.
-3. We need to add players to the left and right grids. Use the middle grid for the score.
-4. Write CSS styles in `style.css`.
+2. Using `CSS Grid`, create 3 columns one each for Heroes, score and Villains in same order. Try to make it responsive and find the right size for each grid.
+3. Add players to the left and right grids. Use the middle grid to showcase the scores.
+4. Style the elements in `style.css`.
 
-
-It should adhere to following conditions:
-* Heroes on your left grid and Villains on the right grid.
+### Conditions
+Your output should adhere to the following conditions.
+* Heroes should be on your left grid and Villains on the right grid.
 * Heroes should be justified to the right and Villains to the left.
-* Each player should have an image, name and strength(Number).
+* Each player should have an image, name and strength (Number).
 * Name and strength should be center aligned.
 * Make the players equally spaced apart.
 
-The final output should look like this
+### Expected Output
+Your final output should look like this
 
 ![Superwar](doc/superwars-css.png)
+
+
+Happy Coding ProGrad ❤️
